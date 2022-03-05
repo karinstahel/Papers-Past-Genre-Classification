@@ -4,6 +4,8 @@ This project explores feature sets and machine learning methods for classifying 
 
 The genre classification pipeline is documented in a series of Jupyter notebooks designed to allow other researchers to easily apply and build on the results of this project. In addition, stand-alone notebooks are available for poetry, fiction, family notices, and letters to the editor, allowing the pipeline to be run end-to-end to discover examples of those genres in the dataset.
 
+The end-to-end notebooks are provided in two versions, either including or excluding a TF-IDF feature, which is computationally expensive but improves precision for some genres. Further information is provided in the notebooks.
+
 This project was carried out through the [UC Arts Digital Lab at the University of Canterbury](http://dh.canterbury.ac.nz/).
 
 ## The genre classification pipeline
