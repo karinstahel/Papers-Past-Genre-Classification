@@ -1,0 +1,109 @@
+,feature_set,model_name,accuracy_score,precision_score,recall_score,f1_score
+8,all_features,Support Vector Machine,0.66,0.65,0.66,0.63
+2,all_features,Random Forest,0.65,0.65,0.65,0.62
+8,all_features_excl_tfidf,Support Vector Machine,0.64,0.64,0.64,0.61
+2,all_features_excl_univ,Random Forest,0.64,0.62,0.64,0.61
+8,all_features_excl_univ,Support Vector Machine,0.64,0.63,0.64,0.61
+2,all_features_excl_tfidf,Random Forest,0.64,0.63,0.64,0.61
+8,pos_freq_combo,Support Vector Machine,0.62,0.61,0.62,0.59
+2,pos_freq_combo,Random Forest,0.61,0.59,0.61,0.58
+8,pos_freq_penn,Support Vector Machine,0.61,0.60,0.61,0.58
+8,all_features_excl_penn,Support Vector Machine,0.61,0.59,0.61,0.58
+2,all_features_excl_penn,Random Forest,0.61,0.59,0.61,0.58
+2,pos_freq_penn,Random Forest,0.61,0.58,0.61,0.58
+7,all_features_excl_univ,K Nearest Neighbor,0.58,0.58,0.58,0.57
+7,all_features_excl_tfidf,K Nearest Neighbor,0.58,0.58,0.58,0.57
+7,all_features,K Nearest Neighbor,0.58,0.57,0.58,0.56
+1,all_features,Stochastic Gradient Descent,0.58,0.58,0.58,0.56
+7,all_features_excl_penn,K Nearest Neighbor,0.55,0.54,0.55,0.54
+6,pos_freq_penn,Gaussian Naive Bayes,0.53,0.56,0.53,0.54
+1,all_features_excl_univ,Stochastic Gradient Descent,0.55,0.55,0.55,0.53
+7,pos_freq_combo,K Nearest Neighbor,0.55,0.53,0.55,0.53
+1,all_features_excl_penn,Stochastic Gradient Descent,0.55,0.53,0.55,0.53
+1,pos_freq_combo,Stochastic Gradient Descent,0.55,0.52,0.55,0.53
+7,pos_freq_penn,K Nearest Neighbor,0.53,0.54,0.53,0.52
+6,all_features,Gaussian Naive Bayes,0.51,0.60,0.51,0.52
+1,all_features_excl_tfidf,Stochastic Gradient Descent,0.54,0.53,0.54,0.51
+5,pos_freq_combo,GradientBoosting,0.53,0.49,0.53,0.51
+6,all_features_excl_univ,Gaussian Naive Bayes,0.50,0.59,0.50,0.51
+6,all_features_excl_tfidf,Gaussian Naive Bayes,0.50,0.59,0.50,0.51
+6,pos_freq_combo,Gaussian Naive Bayes,0.48,0.54,0.48,0.49
+2,pos_freq_univ,Random Forest,0.51,0.49,0.51,0.49
+8,pos_freq_univ,Support Vector Machine,0.54,0.50,0.54,0.49
+3,all_features_excl_univ,Decision Tree,0.49,0.49,0.49,0.49
+1,pos_freq_penn,Stochastic Gradient Descent,0.53,0.50,0.53,0.49
+3,all_features_excl_tfidf,Decision Tree,0.47,0.48,0.47,0.48
+3,all_features,Decision Tree,0.47,0.48,0.47,0.48
+5,all_features_excl_univ,GradientBoosting,0.47,0.51,0.47,0.47
+5,all_features_excl_tfidf,GradientBoosting,0.45,0.52,0.45,0.47
+3,all_features_excl_penn,Decision Tree,0.47,0.46,0.47,0.46
+3,pos_freq_penn,Decision Tree,0.46,0.46,0.46,0.46
+6,all_features_excl_penn,Gaussian Naive Bayes,0.45,0.53,0.45,0.45
+5,all_features,GradientBoosting,0.43,0.48,0.43,0.45
+3,pos_freq_combo,Decision Tree,0.45,0.45,0.45,0.44
+7,pos_freq_univ,K Nearest Neighbor,0.46,0.44,0.46,0.44
+6,pos_freq_univ,Gaussian Naive Bayes,0.44,0.43,0.44,0.42
+5,pos_freq_univ,GradientBoosting,0.46,0.40,0.46,0.42
+5,pos_freq_penn,GradientBoosting,0.43,0.42,0.43,0.41
+3,pos_freq_univ,Decision Tree,0.39,0.39,0.39,0.39
+1,pos_freq_univ,Stochastic Gradient Descent,0.42,0.41,0.42,0.38
+8,text_stats,Support Vector Machine,0.43,0.34,0.43,0.36
+2,text_stats,Random Forest,0.39,0.35,0.39,0.36
+7,text_stats,K Nearest Neighbor,0.38,0.35,0.38,0.36
+7,line_widths,K Nearest Neighbor,0.36,0.33,0.36,0.35
+2,line_widths,Random Forest,0.37,0.33,0.37,0.35
+5,text_stats,GradientBoosting,0.36,0.32,0.36,0.33
+8,line_widths,Support Vector Machine,0.42,0.32,0.42,0.33
+1,text_stats,Stochastic Gradient Descent,0.38,0.34,0.38,0.31
+3,line_widths,Decision Tree,0.30,0.30,0.30,0.30
+3,text_stats,Decision Tree,0.29,0.30,0.29,0.30
+2,syllable_freq,Random Forest,0.29,0.28,0.29,0.28
+1,line_widths,Stochastic Gradient Descent,0.37,0.23,0.37,0.28
+7,line_offsets,K Nearest Neighbor,0.29,0.26,0.29,0.28
+2,line_offsets,Random Forest,0.29,0.26,0.29,0.28
+4,all_features_excl_penn,AdaBoost,0.34,0.25,0.34,0.27
+4,all_features,AdaBoost,0.34,0.25,0.34,0.27
+6,line_offsets,Gaussian Naive Bayes,0.31,0.28,0.31,0.26
+7,syllable_freq,K Nearest Neighbor,0.27,0.26,0.27,0.26
+6,line_widths,Gaussian Naive Bayes,0.30,0.26,0.30,0.26
+3,line_offsets,Decision Tree,0.26,0.26,0.26,0.26
+8,line_offsets,Support Vector Machine,0.35,0.22,0.35,0.25
+8,syllable_freq,Support Vector Machine,0.34,0.22,0.34,0.25
+4,pos_freq_penn,AdaBoost,0.31,0.32,0.31,0.24
+4,all_features_excl_univ,AdaBoost,0.32,0.27,0.32,0.24
+4,all_features_excl_tfidf,AdaBoost,0.32,0.27,0.32,0.24
+4,line_widths,AdaBoost,0.33,0.20,0.33,0.24
+3,syllable_freq,Decision Tree,0.23,0.24,0.23,0.24
+6,syllable_freq,Gaussian Naive Bayes,0.32,0.23,0.32,0.24
+1,line_offsets,Stochastic Gradient Descent,0.32,0.20,0.32,0.23
+4,text_stats,AdaBoost,0.24,0.19,0.24,0.21
+4,syllable_freq,AdaBoost,0.32,0.25,0.32,0.21
+1,syllable_freq,Stochastic Gradient Descent,0.31,0.23,0.31,0.21
+2,tf_idf,Random Forest,0.21,0.20,0.21,0.21
+3,tf_idf,Decision Tree,0.21,0.20,0.21,0.21
+7,tf_idf,K Nearest Neighbor,0.21,0.19,0.21,0.20
+6,tf_idf,Gaussian Naive Bayes,0.32,0.15,0.32,0.19
+1,tf_idf,Stochastic Gradient Descent,0.32,0.16,0.32,0.19
+8,tf_idf,Support Vector Machine,0.32,0.16,0.32,0.19
+4,tf_idf,AdaBoost,0.32,0.14,0.32,0.19
+4,pos_freq_combo,AdaBoost,0.32,0.18,0.32,0.19
+4,pos_freq_univ,AdaBoost,0.32,0.18,0.32,0.19
+5,tf_idf,GradientBoosting,0.29,0.18,0.29,0.18
+6,text_stats,Gaussian Naive Bayes,0.20,0.25,0.20,0.18
+4,line_offsets,AdaBoost,0.18,0.23,0.18,0.17
+0,all_features,Dummy,0.28,0.08,0.28,0.13
+0,pos_freq_combo,Dummy,0.28,0.08,0.28,0.13
+0,pos_freq_univ,Dummy,0.28,0.08,0.28,0.13
+0,all_features_excl_univ,Dummy,0.28,0.08,0.28,0.13
+0,pos_freq_penn,Dummy,0.28,0.08,0.28,0.13
+0,line_offsets,Dummy,0.28,0.08,0.28,0.13
+0,all_features_excl_tfidf,Dummy,0.28,0.08,0.28,0.13
+0,line_widths,Dummy,0.28,0.08,0.28,0.13
+0,syllable_freq,Dummy,0.28,0.08,0.28,0.13
+0,text_stats,Dummy,0.28,0.08,0.28,0.13
+0,all_features_excl_penn,Dummy,0.28,0.08,0.28,0.13
+0,tf_idf,Dummy,0.28,0.08,0.28,0.13
+5,all_features_excl_penn,GradientBoosting,0.08,0.42,0.08,0.08
+5,line_widths,GradientBoosting,0.04,0.05,0.04,0.03
+5,syllable_freq,GradientBoosting,0.04,0.07,0.04,0.03
+5,line_offsets,GradientBoosting,0.05,0.02,0.05,0.01
