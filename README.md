@@ -6,6 +6,8 @@ The genre classification pipeline is documented in a [series of Jupyter notebook
 
 Two versions of the [end-to-end notebooks](https://github.com/karinstahel/Papers-Past-Genre-Classification/tree/main/end-to-end-notebook-files) are provided: including or excluding the TF-IDF feature. Including the TF-IDF feature is computationally expensive but improves precision for some genres. Further information is provided in the notebooks.
 
+The original labelled dataset of 4,628 articles used for this project is included as a pickle file in the [pipeline-files folder](https://github.com/karinstahel/Papers-Past-Genre-Classification/tree/main/pipeline-files). The filename is '20220110_PP_4628articles_labelled.pkl'. A user who wants to experiment with different feature sets or models without sampling and labelling new data can load this dataset into [Notebook 3: Linguistic Features and Text Statistics])https://github.com/karinstahel/Papers-Past-Genre-Classification/blob/main/pipeline-files/3%20PapersPast_GenreClassification_LinguisticFeatures.ipynb) and go from there.
+
 This project was carried out through the [UC Arts Digital Lab at the University of Canterbury](http://dh.canterbury.ac.nz/).
 
 ## The genre classification pipeline
